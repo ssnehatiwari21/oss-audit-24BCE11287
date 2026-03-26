@@ -25,8 +25,9 @@ Linus Torvalds in 2005.
 ## How to Run
 
 ### Step 1 — Clone the repository
-git clone https://github.com/yourusername/oss-audit-[rollnumber].git
-cd oss-audit-[rollnumber]
+
+git clone https://github.com/ssnehatiwari21/oss-audit-24BCE11287.git
+cd oss-audit-24BCE11287
 
 ### Step 2 — Give execute permission
 chmod +x *.sh
