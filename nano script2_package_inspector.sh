@@ -25,7 +25,7 @@ if command -v rpm &>/dev/null; then
     fi
 elif command -v dpkg &>/dev/null; then
     # DEB-based system (Ubuntu, Debian)
-    if dpkg -l $PACKAGE &>/dev/null 2>&1 | grep -q "^ii"; then
+   if dpkg -s $PACKAGE &>/dev/null 2>&1; then
         echo "  ✔ '$PACKAGE' is installed on this system (DEB)."
         echo ""
         echo "  Package Details:"
